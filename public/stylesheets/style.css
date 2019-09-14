@@ -3,7 +3,11 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: pink; }
 
-a {
-  color: #00B7FF; }
+nav a {
+  margin-right: 0.6vw;
+  text-decoration: none; }
+
+.pokeImg {
+  height: 20vh; }
 
 /*# sourceMappingURL=style.css.map */

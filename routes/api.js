@@ -4,6 +4,9 @@ const axios = require('axios');
 
 
 router.get('/poke/:pokeId', (req, res, next) => {
+  //                |
+  //                ------------------------------------------
+  //                                                          |
   axios.get(`https://pokeapi.co/api/v2/pokemon/${req.params.pokeId}`)
   .then(responseFromAPI => {
     console.log("><>><<<><><><><><> ", responseFromAPI.data);
